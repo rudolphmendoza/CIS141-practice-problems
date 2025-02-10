@@ -45,8 +45,7 @@ number = int(input("Enter a number (0 to stop): "))
 while number > 0:
     print("You entered", number)
     number = int(input("Enter a number (0 to stop): "))
-    if number >=1:
-        continue
+    continue
 print("Exiting")
 
 
